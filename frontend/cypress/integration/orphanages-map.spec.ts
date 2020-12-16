@@ -62,6 +62,9 @@ describe('Show orphanages available on the map and its details', () => {
 
         cy.get('.hour').should('be.visible').and('have.text', "Segunda à Sexta 10h as 20h")
         cy.get('.open-on-weekends').should('be.visible').and('have.text', "Não atendemos fim de semana");
+
+        cy.screenshot()
+
     });
 });
  

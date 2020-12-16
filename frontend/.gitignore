@@ -27,3 +27,5 @@ yarn-error.log*
 
 #report file 
 index.json
+
+**/mochawesome-report

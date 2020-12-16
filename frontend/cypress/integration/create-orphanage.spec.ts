@@ -55,6 +55,8 @@ describe('Create orphanage', () => {
             expect(str).to.equal('Cadastro realizado com sucesso')
           })
 
+        cy.screenshot()
+
         cy.url().should('contain', '/app')
     });
 
@@ -95,6 +97,8 @@ describe('Create orphanage', () => {
             expect(str).to.equal('Cadastro realizado com sucesso')
           })
 
+        cy.screenshot()
+        
         cy.url().should('contain', '/app')
     });
 });

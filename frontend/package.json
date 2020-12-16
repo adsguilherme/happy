@@ -11,7 +11,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "axios": "^0.20.0",
-    "cypress": "^5.4.0",
+    "cypress": "^6.1.0",
     "leaflet": "^1.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -28,6 +28,8 @@
     "eject": "react-scripts eject",
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
+    "cy:run-dash": "npx cypress run --parallel --record --key cd93ad16-edd8-4aaa-a83e-52d04c9dd142 --ci-build-id build-001",
+    "cy:run-sorry": "npx cypress run --parallel --record --key xxx --ci-build-id build-002",
     "report:merge": "mochawesome-merge > index.json",
     "report:mocha": "marge index.json",
     "report:clean": "rd /s mochawesome-report"
